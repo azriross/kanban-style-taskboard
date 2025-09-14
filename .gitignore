@@ -1,0 +1,75 @@
+# ==============================
+# .NET / Visual Studio
+# ==============================
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]og/
+[Ll]ogs/
+[Tt]est[Rr]esult*/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vsp
+*.vspscc
+*.vssscc
+*.vs/
+*.vscode/
+.vsconfig
+*.dbmdl
+*.jfm
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+.idea/
+*.ncrunchsolution
+*.ncrunchproject
+*.ncrunch
+*.csproj.user
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Publish outputs
+publish/
+out/
+artifacts/
+wwwroot/dist/
+wwwroot/build/
+
+# Rider
+.idea/
+
+# ==============================
+# Node / React (Vite)
+# ==============================
+node_modules/
+dist/
+build/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# dotenv environment files
+.env
+.env.local
+.env.*.local
+
+# ==============================
+# OS specific
+# ==============================
+.DS_Store
+Thumbs.db

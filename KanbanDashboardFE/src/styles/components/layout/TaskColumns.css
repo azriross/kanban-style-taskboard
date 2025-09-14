@@ -1,0 +1,32 @@
+.columns-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.column {
+  width: 300px;
+  min-height: 600px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+}
+
+.column h2 {
+  text-align: center;
+}
+
+.no-tasks {
+  text-align: center;
+  color: #777;
+  margin-top: 10px;
+}
+
+.draggable-task {
+  margin-bottom: 10px;
+}
